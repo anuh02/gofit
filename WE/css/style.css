@@ -1,0 +1,49 @@
+body {
+    background: radial-gradient(circle, #7b4e27, #a37c4c);
+    background-size: 200% 200%;
+    animation: radialThenLinear 5s linear infinite;
+  }
+  
+  @keyframes radialThenLinear {
+    0%, 25% {
+      background: radial-gradient(circle,#7b4e27, #a37c4c);
+      background-size: 200% 200%;
+    }
+    26%, 100% {
+      background: linear-gradient(135deg, #7b4e27, #a37c4c);
+      background-size: 200% 200%;
+    }
+  }
+  
+
+
+.card {
+    
+   
+    height: 100%;
+    border-radius: 10px;
+   
+    background-color: rgb(230, 229, 229);
+    border: none;
+    border-radius: 10px;
+    box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1), 0 2px 2px rgba(0, 0, 0, 0.06);
+}
+#bg-video {
+    margin: 5px;
+    border-radius: 5px;
+}
+footer{
+    background-color: rgb(211, 211, 211);
+}
+#myButton {
+    background-color:  #005CBF;
+    color: white;
+    color: #fff;
+    border: none;
+    border-radius: 50px; /* Creates a pill shape */
+    padding: 10px 20px;
+    font-size: 16px;
+    cursor: pointer;
+    /* You may need to adjust the text color for visibility */
+}
+
